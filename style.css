@@ -54,6 +54,7 @@ body {
   height: 4px;
   width: 0%;
   z-index: -1;
+  transition: 0.4s;
 }
 
 .circle {
@@ -67,6 +68,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s;
 }
 
 .circle.active {
